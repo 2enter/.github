@@ -1,7 +1,9 @@
 name: Feature request
 description: Suggest an idea
-title: "feature"
-labels: ["kind:feature", "prio:important", "effort:easy"]
+title: ""
+labels: ["kind:feature"]
+assignees:
+  - davilivob
 body:
   - type: textarea
     id: problem
@@ -14,6 +16,30 @@ body:
     id: solution
     attributes:
       label: Proposed solution
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: prio
+      options:
+        - important
+        - medium
+        - hard
+      default: 1
+    validations:
+      required: false
+
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort
+      options:
+        - easy
+        - medium
+        - hard
+      default: 1
     validations:
       required: false
 
