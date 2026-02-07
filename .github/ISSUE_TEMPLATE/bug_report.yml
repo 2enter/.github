@@ -1,4 +1,4 @@
-name: Feature request
+name: Bug report
 description: Something isn't working
 title: "[bug] "
 labels: ["kind:bug", "prio:critical"]
