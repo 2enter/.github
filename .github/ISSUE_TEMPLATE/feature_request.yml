@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an idea
+title: "feature"
+labels: ["kind:feature", "prio:important", "effort:easy"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: false
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Core
+        - Extra
+    validations:
+      required: false
