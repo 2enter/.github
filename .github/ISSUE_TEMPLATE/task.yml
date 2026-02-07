@@ -1,0 +1,29 @@
+name: Task
+description: A single actionable unit of work
+title: "[task] "
+labels: ["kind:task", "prio:important", "effort:medium"]
+assignees:
+  - davilivob
+projects: ["2enter/3"]
+
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What / goal
+      description: What needs to be done?
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related / depends on
+      description: Link related issues/PRs and blockers.
+      placeholder: |
+        - #
+
+        **Depends on:**
+        - #
+    validations:
+      required: false
