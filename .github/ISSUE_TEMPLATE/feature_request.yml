@@ -10,7 +10,11 @@ body:
     id: needs
     attributes:
       label: Needs
-      description: "Describe the problem you're trying to solve. And it's key elements."
+      description: Describe the problem you're trying to solve. And it's key elements.
+      placeholder: |
+        1.
+        2.
+        3.
     validations:
       required: true
 
@@ -18,7 +22,7 @@ body:
     id: solution
     attributes:
       label: Solution
-      description: "Describe the solution you'd like."
+      description: Describe the solution you'd like.
     validations:
       required: false
 
@@ -26,15 +30,18 @@ body:
     id: depends_on
     attributes:
       label: Depends on
-      description: "List other issues or pull requests that this feature depends on."
+      description: List other issues or pull requests that this feature depends on.
+      placeholder: |
+        1. #
     validations:
       required: false
 
   - type: textarea
     id: impact
-    description: "Describe the impact of this feature on the project."
     attributes:
       label: Impact
-      description: "Describe the impact of this feature on the project."
+      description: Describe the impact of this feature on the project.
+      placeholder: |
+        1. #
     validations:
       required: false
