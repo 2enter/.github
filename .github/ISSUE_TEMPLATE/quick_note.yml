@@ -1,0 +1,24 @@
+name: Quick note
+description: Fast capture for ideas, reminders, or small tasks
+title: "[note] "
+labels: ["kind:task", "prio:later", "effort:easy"]
+assignees:
+  - davilivob
+
+body:
+  - type: textarea
+    id: note
+    attributes:
+      label: Note
+      description: Write the task/idea in one or two sentences. Add links if needed.
+      value: |
+        **What:**
+        -
+
+        **Why / context:**
+        -
+
+        **Next step:**
+        -
+    validations:
+      required: true
