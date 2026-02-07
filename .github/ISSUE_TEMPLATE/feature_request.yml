@@ -22,11 +22,11 @@ body:
   - type: dropdown
     id: priority
     attributes:
-      label: prio
+      label: Priority
       options:
-        - critical
-        - important
-        - later
+        - prio:critical
+        - prio:important
+        - prio:later
       default: 1
     validations:
       required: false
@@ -36,9 +36,9 @@ body:
     attributes:
       label: Effort
       options:
-        - easy
-        - medium
-        - hard
+        - effort:easy
+        - effort:medium
+        - effort:hard
       default: 1
     validations:
       required: false
@@ -48,7 +48,7 @@ body:
     attributes:
       label: Scope
       options:
-        - Core
-        - Extra
+        - scope:core
+        - scope:extra
     validations:
       required: false
