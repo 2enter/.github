@@ -39,7 +39,7 @@ body:
     attributes:
       label: Related
       description: List other issues or pull requests that this feature is related to.
-      value: |
+      placeholder: |
         1. #
 
         **Depends on**
