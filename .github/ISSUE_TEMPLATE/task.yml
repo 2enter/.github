@@ -16,6 +16,14 @@ body:
       required: true
 
   - type: textarea
+    id: result
+    attributes:
+      label: Result
+      description: What will the result be?
+    validations:
+      required: true
+
+  - type: textarea
     id: related
     attributes:
       label: Related / depends on
