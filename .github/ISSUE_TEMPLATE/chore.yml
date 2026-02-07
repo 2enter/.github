@@ -1,4 +1,4 @@
-name: Chore / maintenance
+name: 🧰 Chore / maintenance
 description: Tooling, deps, cleanup, infra tasks
 title: "[chore] "
 labels: ["kind:chore"]

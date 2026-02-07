@@ -1,4 +1,4 @@
-name: Refactoring
+name: 🛠️ Refactoring
 description: Improve structure without changing external behavior
 title: "[refactor] "
 labels: ["kind:refactor"]
