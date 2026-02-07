@@ -46,13 +46,3 @@ body:
         1. #
     validations:
       required: false
-
-  - type: textarea
-    id: impact
-    attributes:
-      label: Impact
-      description: Describe the impact of this feature on the project.
-      placeholder: |
-        1. #
-    validations:
-      required: false
