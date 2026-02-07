@@ -1,4 +1,4 @@
-name: Experiment / Spike
+name: Experiment
 description: Try a new technology or validate an approach with a small demo
 title: "[exp] "
 labels: ["flag:experimental", "kind:task"]
