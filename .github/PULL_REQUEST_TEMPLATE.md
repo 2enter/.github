@@ -1,13 +1,9 @@
-## Summary
+## Things I've done
 
-What does this PR change?
+1.
 
-## Related
+## The checks I did
 
-Closes #
+1.
 
-## Checklist
-
-- [ ] Tests added/updated (if applicable)
-- [ ] Docs updated (if applicable)
-- [ ] Works on Windows (if applicable)
+## Notes / links
