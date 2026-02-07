@@ -24,9 +24,9 @@ body:
     attributes:
       label: prio
       options:
+        - critical
         - important
-        - medium
-        - hard
+        - later
       default: 1
     validations:
       required: false
