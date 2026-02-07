@@ -1,0 +1,11 @@
+name: Chore / maintenance
+description: Tooling, deps, cleanup, infra tasks
+title: "[chore] "
+labels: ["kind:chore"]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

@@ -1,0 +1,37 @@
+name: Feature request
+description: Something isn't working
+title: "[bug] "
+labels: ["kind:bug", "prio:critical"]
+assignees:
+  - davilivob
+projects: ["2enter/3"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: false
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
