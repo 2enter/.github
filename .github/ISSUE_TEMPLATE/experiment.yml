@@ -1,0 +1,51 @@
+name: Experiment / Spike
+description: Try a new technology or validate an approach with a small demo
+title: "[exp] "
+labels: ["flag:experimental", "kind:task"]
+assignees:
+  - davilivob
+projects: ["2enter/3"]
+body:
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: What do you believe, and what would prove/disprove it?
+      value: |
+        **I think:**
+        -
+
+        **Success criteria:**
+        -
+
+        **Failure criteria:**
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: demo
+    attributes:
+      label: Demo plan
+      description: What small demo will you build?
+      value: |
+        **What to build:**
+        -
+
+        **Timebox:**
+        -
+
+        **Notes / links:**
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / links
+      description: Some notes or links related to the experiment.
+      placeholder: |
+        - [example code](https://example.com)
+    validations:
+      required: false

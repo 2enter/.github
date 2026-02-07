@@ -25,10 +25,10 @@ body:
       required: false
 
   - type: textarea
-    id: docs
+    id: notes
     attributes:
-      label: Documentations
-      description: External documentation links.
+      label: Notes / links
+      description: Some notes or links related to this feature.
       placeholder: |
         - [example code](https://example.com)
     validations:

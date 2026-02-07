@@ -2,6 +2,9 @@ name: Chore / maintenance
 description: Tooling, deps, cleanup, infra tasks
 title: "[chore] "
 labels: ["kind:chore"]
+assignees:
+  - davilivob
+projects: ["2enter/3"]
 body:
   - type: textarea
     id: details

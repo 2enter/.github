@@ -1,0 +1,40 @@
+name: Epic
+description: Umbrella issue that tracks a milestone with multiple sub-issues
+title: "[epic] "
+labels: ["kind:epic"]
+assignees:
+  - davilivob
+projects: ["2enter/3"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What’s the goal of this epic?
+      placeholder: |
+        **Goal:**
+        -
+
+        **Why:**
+        -
+
+        **Non-goals:**
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Sub-issues / checklist
+      description: Link issues and track progress here.
+      value: |
+        ### Sub-issues
+        - [ ] # (create/link sub-issue)
+        - [ ] #
+        - [ ] #
+
+        ### Dependencies
+        - [ ] # (blocked by)
+    validations:
+      required: true

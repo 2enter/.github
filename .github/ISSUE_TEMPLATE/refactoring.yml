@@ -1,0 +1,52 @@
+name: Refactoring
+description: Improve structure without changing external behavior
+title: "[refactor] "
+labels: ["kind:refactor"]
+assignees:
+  - davilivob
+projects: ["2enter/3"]
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why refactor? What pain does it remove?
+      value: |
+        **Current pain:**
+        -
+
+        **Goal:**
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: plan
+    attributes:
+      label: Refactor plan
+      description: Outline the steps and boundaries.
+      value: |
+        **Scope / boundaries (what will NOT change):**
+        -
+
+        **Steps:**
+        1.
+        2.
+        3.
+
+        **Risks:**
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: How will you confirm behavior stays the same?
+      value: |
+        - [ ] Tests still pass
+        - [ ] Manual smoke test
+        - [ ] No API/output changes (or documented)
+    validations:
+      required: false
