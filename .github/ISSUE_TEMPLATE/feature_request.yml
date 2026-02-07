@@ -1,21 +1,39 @@
 name: Feature request
 description: Suggest an idea
 title: "Name me"
-labels: ["kind:feature"]
+labels: ["kind:feature", "effort:easy", "prio:important"]
 assignees:
   - davilivob
 projects: ["2enter/3"]
 body:
   - type: textarea
-    id: problem
+    id: needs
+    description: "Describe the problem you're trying to solve. And it's key elements."
     attributes:
-      label: Problem / motivation
+      label: Needs
     validations:
       required: true
 
   - type: textarea
     id: solution
+    description: "Describe the solution you'd like."
     attributes:
-      label: Proposed solution
+      label: Solution
+    validations:
+      required: false
+
+  - type: textarea
+    id: depends_on
+    description: "List other issues or pull requests that this feature depends on."
+    attributes:
+      label: Depends on
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    description: "Describe the impact of this feature on the project."
+    attributes:
+      label: Impact
     validations:
       required: false
