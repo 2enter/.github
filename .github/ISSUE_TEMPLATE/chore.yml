@@ -1,6 +1,6 @@
 name: 🧰 Chore / maintenance
 description: Tooling, deps, cleanup, infra tasks
-title: "[chore] "
+title: "🧰 "
 labels: ["kind:chore"]
 assignees:
   - davilivob

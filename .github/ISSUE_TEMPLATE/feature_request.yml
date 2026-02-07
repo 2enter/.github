@@ -1,6 +1,6 @@
 name: ✨ Feature request
 description: Suggest an idea
-title: "[feature] "
+title: "✨ "
 labels: ["kind:feature", "effort:easy", "prio:important"]
 assignees:
   - davilivob

@@ -1,6 +1,6 @@
 name: 🧭 Epic
 description: Umbrella issue that tracks a milestone with multiple sub-issues
-title: "[epic] "
+title: "🧭 "
 labels: ["kind:epic"]
 assignees:
   - davilivob

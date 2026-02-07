@@ -1,6 +1,6 @@
 name: 🧪 Experiment
 description: Try a new technology or validate an approach with a small demo
-title: "[exp] "
+title: "🧪 "
 labels: ["flag:experimental", "kind:task"]
 assignees:
   - davilivob

@@ -1,6 +1,6 @@
 name: 🛠️ Refactoring
 description: Improve structure without changing external behavior
-title: "[refactor] "
+title: "🛠️ "
 labels: ["kind:refactor"]
 assignees:
   - davilivob

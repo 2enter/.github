@@ -1,6 +1,6 @@
 name: 📝 Quick note
 description: Fast capture for ideas, reminders, or small tasks
-title: "[note] "
+title: "📝 "
 labels: ["kind:task", "prio:later", "effort:easy"]
 assignees:
   - davilivob

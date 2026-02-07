@@ -1,6 +1,6 @@
 name: 🐛 Bug report
 description: Something isn't working
-title: "[bug] "
+title: "🐛 "
 labels: ["kind:bug", "prio:critical"]
 assignees:
   - davilivob
