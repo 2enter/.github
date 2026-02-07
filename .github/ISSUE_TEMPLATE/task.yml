@@ -1,6 +1,6 @@
-name: Task
+name: ✅ Task
 description: A single actionable unit of work
-title: "[task] "
+title: "✅ "
 labels: ["kind:task", "prio:important", "effort:medium"]
 assignees:
   - davilivob
