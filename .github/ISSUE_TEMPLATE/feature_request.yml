@@ -1,9 +1,10 @@
 name: Feature request
 description: Suggest an idea
-title: "f"
+title: "Name me"
 labels: ["kind:feature"]
 assignees:
   - davilivob
+projects: ["2enter/3"]
 body:
   - type: textarea
     id: problem
@@ -16,39 +17,5 @@ body:
     id: solution
     attributes:
       label: Proposed solution
-    validations:
-      required: false
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      options:
-        - prio:critical
-        - prio:important
-        - prio:later
-      default: 1
-    validations:
-      required: false
-
-  - type: dropdown
-    id: effort
-    attributes:
-      label: Effort
-      options:
-        - effort:easy
-        - effort:medium
-        - effort:hard
-      default: 1
-    validations:
-      required: false
-
-  - type: dropdown
-    id: scope
-    attributes:
-      label: Scope
-      options:
-        - scope:core
-        - scope:extra
     validations:
       required: false
