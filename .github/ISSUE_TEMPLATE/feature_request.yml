@@ -8,25 +8,25 @@ projects: ["2enter/3"]
 body:
   - type: textarea
     id: needs
-    description: "Describe the problem you're trying to solve. And it's key elements."
     attributes:
       label: Needs
+      description: "Describe the problem you're trying to solve. And it's key elements."
     validations:
       required: true
 
   - type: textarea
     id: solution
-    description: "Describe the solution you'd like."
     attributes:
       label: Solution
+      description: "Describe the solution you'd like."
     validations:
       required: false
 
   - type: textarea
     id: depends_on
-    description: "List other issues or pull requests that this feature depends on."
     attributes:
       label: Depends on
+      description: "List other issues or pull requests that this feature depends on."
     validations:
       required: false
 
@@ -35,5 +35,6 @@ body:
     description: "Describe the impact of this feature on the project."
     attributes:
       label: Impact
+      description: "Describe the impact of this feature on the project."
     validations:
       required: false
