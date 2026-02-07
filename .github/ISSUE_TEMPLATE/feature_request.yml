@@ -35,11 +35,14 @@ body:
       required: false
 
   - type: textarea
-    id: depends_on
+    id: related
     attributes:
-      label: Depends on
-      description: List other issues or pull requests that this feature depends on.
-      placeholder: |
+      label: Related
+      description: List other issues or pull requests that this feature is related to.
+      value: |
+        1. #
+
+        **Depends on**
         1. #
     validations:
       required: false
