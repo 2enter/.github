@@ -1,4 +1,4 @@
-## Things I've done
+## Things I've done besides the issue's request
 
 1.
 

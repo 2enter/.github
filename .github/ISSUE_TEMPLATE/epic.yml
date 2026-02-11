@@ -22,19 +22,3 @@ body:
         -
     validations:
       required: true
-
-  - type: textarea
-    id: tasks
-    attributes:
-      label: Sub-issues / checklist
-      description: Link issues and track progress here.
-      value: |
-        ### Sub-issues
-        - [ ] # (create/link sub-issue)
-        - [ ] #
-        - [ ] #
-
-        ### Dependencies
-        - [ ] # (blocked by)
-    validations:
-      required: true
