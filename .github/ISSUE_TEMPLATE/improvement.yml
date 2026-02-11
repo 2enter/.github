@@ -1,0 +1,48 @@
+name: 📈 Improvement
+description: Enhance existing behavior, performance, UX, or reliability (not a brand-new feature)
+title: "📈 "
+labels: ["kind:improvement"]
+assignees:
+  - davilivob
+projects: ["2enter/3"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior / pain
+      description: What’s wrong or lacking today?
+      value: |
+        **Current problem:**
+        -
+
+        **Impact:**
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed improvement
+      description: What change will improve it?
+      value: |
+        **Proposal:**
+        -
+
+        **Alternatives considered:**
+        -
+    validations:
+      required: false
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related / depends on
+      description: Link related issues/PRs and blockers.
+      value: |
+        - #
+
+        **Depends on:**
+        - #
+    validations:
+      required: false
